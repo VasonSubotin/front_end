@@ -1,0 +1,19 @@
+.container {
+  padding: 10px;
+}
+
+.button {
+  text-align: center;
+  background: linear-gradient(#42a1ec, #0070c9);
+  border: 1px solid #07c;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: white;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.button:hover {
+  background: linear-gradient(#0070c9, #42a1ec);
+}

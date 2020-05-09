@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "isolatedModules": true,
+      "jsx": "react",
+      "lib": ["es6"],
+      "moduleResolution": "node",
+      "noEmit": true,
+      "strict": true,
+      "target": "esnext",
+      "baseUrl": "./src",
+      "paths": {
+        "components": ["src/components"],
+        "globals": ["src/globals"],
+        "containers": ["src/containers"],
+        "modules": ["src/modules"],
+        "sagas": ["src/sagas"],
+        "helpers": ["src/helpers"],
+        "normalizers": ["src/normalizers"]
+      }
+    },
+    "exclude": ["node_modules", "babel.config.js"]
+  }
+  
